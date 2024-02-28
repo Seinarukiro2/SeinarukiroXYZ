@@ -1,0 +1,51 @@
+baseURL = '/'
+languageCode = 'en'
+title = 'Seinarukiro'
+theme = 'hugo-cat'
+PygmentsCodeFences = true
+PygmentsStyle = "solarized-dark256"
+pluralizelisttitles = "false"
+paginate  = 15
+disableHugoGeneratorInject = false
+enableEmoji = true
+
+[params]
+ava = "/img/cat.png"
+owner ="Seinarukiro"
+talk = "Hi &#128075; Watashi wa Kiro desu!"
+blogSection = ["blog"]
+description = "Cat"
+favicon = "/img/logo.svg"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Ask AI"
+url = "/askai"
+weight = 2
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4
+
+
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.111.3"
+  

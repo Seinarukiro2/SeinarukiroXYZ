@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:60385/blog/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:60385/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:60385/blog/myfirstpost/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:60385/blog/second/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:60385/blog/test/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:60385/blog/text/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:60385/about/</loc>
+  </url><url>
+    <loc>//localhost:60385/categories/</loc>
+  </url><url>
+    <loc>//localhost:60385/contact/</loc>
+  </url><url>
+    <loc>//localhost:60385/askai/</loc>
+  </url><url>
+    <loc>//localhost:60385/tags/</loc>
+  </url>
+</urlset>

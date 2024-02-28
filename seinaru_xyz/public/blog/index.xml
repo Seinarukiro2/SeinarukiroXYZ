@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Seinarukiro</title>
+    <link>//localhost:1313/blog/</link>
+    <description>Recent content in Blog on Seinarukiro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This</title>
+      <link>//localhost:1313/blog/myfirstpost/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/myfirstpost/</guid>
+      <description>s</description>
+    </item>
+    <item>
+      <title>THis</title>
+      <link>//localhost:1313/blog/second/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/second/</guid>
+      <description>s</description>
+    </item>
+    <item>
+      <title>Cool Cat</title>
+      <link>//localhost:1313/blog/test/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/test/</guid>
+      <description>A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.&#xA;There are over three hundred species and tens of thousands of cultivars.They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.&#xA;Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds.</description>
+    </item>
+  </channel>
+</rss>
