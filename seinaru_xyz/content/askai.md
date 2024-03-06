@@ -1,7 +1,6 @@
 ---
 title: "Seinaru AI"
 draft: false
-layout: staticpage
+layout: askai
 ---
-
-Sooooooooon...
+aoaoaooa
