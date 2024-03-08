@@ -1,0 +1,62 @@
+.chat-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    .chat-box {
+        height: 300px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+
+        .chat-message {
+            margin-bottom: 10px;
+
+        }
+    }
+
+    #user-input {
+        width: 80%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+
+    #typingIndicator {
+        display: none; // Скрываем сообщение "typing..." по умолчанию
+    }
+
+    @keyframes typing {
+        0% {
+            content: "AI typing";
+        }
+
+        25% {
+            content: "AI typing.";
+        }
+
+        50% {
+            content: "AI typing..";
+        }
+
+        75% {
+            content: "AI typing...";
+        }
+    }
+
+    #typingIndicator::after {
+        content: "AI typing...";
+        animation: typing 1s infinite;
+    }
+
+    button {
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+}
