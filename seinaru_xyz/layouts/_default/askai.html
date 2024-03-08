@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="chat-container">
+    <div class="chat-box" id="chat-box">
+        <div class="chat-message">
+            Welcome to the AI Chat!
+            My name is Sai.
+            I can answer all your questions about my creator.
+        </div>
+    </div>
+    <div class="chat-message" id="typingIndicator"></div>
+    <input type="text" id="user-input" placeholder="Type your message...">
+
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="{{ "js/script.js" | relURL }}"></script>
+
+{{ end }}
