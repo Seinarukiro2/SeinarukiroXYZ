@@ -4,7 +4,7 @@
 }
 
 .article-list {
-    list-style: cjk-decimal;
+    list-style: none;
 }
 
 .staticpage {
@@ -29,4 +29,36 @@
 
 img {
     width: 100%;
+}
+
+// Общие стили для карточек постов
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+// Анимация при наведении курсора
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px #18b2cc;
+}
+
+// Стили для заголовка поста
+.blog-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.post-link {
+    text-decoration: none;
+
+    color: inherit;
+
+    display: block;
+
 }

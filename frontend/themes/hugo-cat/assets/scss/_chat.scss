@@ -1,9 +1,11 @@
 .chat-container {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
 
     .chat-box {
         height: 300px;
@@ -11,22 +13,27 @@
         border: 1px solid #ccc;
         padding: 10px;
         margin-bottom: 10px;
-
-        .chat-message {
-            margin-bottom: 10px;
-
-        }
     }
 
-    #user-input {
-        width: 80%;
-        padding: 5px;
+    .chat-message {
         margin-bottom: 10px;
     }
 
+    .input-container {
+        display: flex;
+    }
+
+    #user-input {
+        flex: 1;
+        padding: 5px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
 
     #typingIndicator {
-        display: none; // Скрываем сообщение "typing..." по умолчанию
+        display: none;
+
     }
 
     @keyframes typing {
@@ -54,9 +61,10 @@
 
     button {
         padding: 5px 10px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
+        background-color: #ffffff;
+        color: #007bff;
+        border: 1px solid #007bff;
         cursor: pointer;
+        border-radius: 5px;
     }
 }
