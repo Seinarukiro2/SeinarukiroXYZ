@@ -8,9 +8,10 @@
         </div>
     </div>
     <div class="chat-message" id="typingIndicator"></div>
-    <input type="text" id="user-input" placeholder="Type your message...">
-
-    <button onclick="sendMessage()">Send</button>
+    <div class="input-container">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
 </div>
 
 <script src="{{ "js/script.js" | relURL }}"></script>

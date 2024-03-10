@@ -5,13 +5,18 @@
    </div>
 
 <ul class="article-list">
-{{ range (.Paginate .Pages).Pages }}
-<li class="post">      
-    <span>{{ dateFormat "Jan 2, 2006" .Date }} </span> 
-    <a class="blog-title" href="{{ .RelPermalink | safeURL }}">{{.Title | htmlEscape }}</a>
-</li>
-{{ end }}
- </ul>
+  {{ range (.Paginate .Pages).Pages }}
+  <a href="{{ .RelPermalink | safeURL }}" class="post-link">
+    <li class="post">  
+        
+            <span>{{ dateFormat "Jan 2, 2006" .Date }} </span> 
+            <span class="blog-title">{{.Title | htmlEscape }}</span>
+        
+    </li>
+  </a>
+  {{ end }}
+</ul>
+
 </div>
 {{ partial "paginate.html" . }}
 {{ end }}

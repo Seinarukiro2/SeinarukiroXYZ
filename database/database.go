@@ -1,6 +1,7 @@
 package database
 
 import (
+    "Seinarukiro_XYZ/main"
     "fmt"
     "gorm.io/driver/sqlite"
     "gorm.io/gorm"
